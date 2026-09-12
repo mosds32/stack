@@ -5,6 +5,8 @@ import { logoutUser } from '@/app/actions';
 import { deleteProject } from '@/app/actions';
 import { getSessionUser } from '@/lib/auth';
 
+export const dynamic = 'force-dynamic';
+
 const tasks = [
   { title: 'Landing page refresh', meta: 'Design', priority: 'High' },
   { title: 'API schema review', meta: 'Backend', priority: 'Medium' },
